@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Guia de Estudos</title>
+    <link rel="shortcut icon" href="46963.png" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        #background {
+            background-image: url("html.jpg");
+            background-size: cover;
+            filter: blur(4px);
+            height: 100vh;
+            position: fixed;
+            width: 100%;
+            z-index: -1;
+        }
+
+        header {
+            background-color: rgba(21, 19, 19, 0.7);
+            color: #90e17b;
+            font-family: 'Playfair Display', serif;
+            padding: 20px;
+            text-align: center;
+        }
+
+            #video-section {
+            margin: 20px;
+            text-align: center;
+            color: #ffffff;
+            border: 2px solid rgba(255, 255, 255, 0.7); 
+            padding: 10px; 
+            display: inline-block; 
+        }
+
+        iframe {
+            width: 100%; 
+            height: 500px; 
+            border: none;
+        }
+
+        #form-section {
+            margin: 20px;
+            color: #000000;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: rgba(23, 19, 19, 0.8);
+            padding: 20px;
+            text-align: center
+        }
+            button {
+                background-color: rgb(56, 77, 54); 
+                color: #fff; 
+                padding: 10px 20px; 
+                font-size: 16px; 
+                border: none; 
+                border-radius: 5px; 
+                cursor: pointer; 
+            }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: rgba(26, 24, 24, 0.7);
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            color: #fffdfd;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        label {
+            
+            font-family: 'Bebas Neue', sans-serif;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="background"></div>
+
+    <header>
+        <h1>O MELHOR GUIA DE ESTUDOS PARA 2024</h1>
+    </header>
+
+    <section id="video-section">
+        <div>
+            <iframe src="https://www.youtube.com/embed/oQw1Wo1GNp0?si=Yb9h7Wo_oS9M9yYm" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        </div>
+    </section>
+
+    <section id="form-section">
+        <h1><ins>FAÇA SEU LOGIN</ins></h1>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="texto" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">ENVIAR</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Felipe de Oliveira - 2023 - Instituto Evoluir</p>
+    </footer>
+
+</body>
+
+</html>
